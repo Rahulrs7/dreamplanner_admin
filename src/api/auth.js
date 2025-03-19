@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000'; // Update this if needed
+const API_URL = 'https://dreamplanner-backend.onrender.com'; // Update this if needed
 
 export const registerAdmin = async (adminData) => {
     return await axios.post(`${API_URL}/register`, adminData);
